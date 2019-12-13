@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reg</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/singup.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="section__two">
+	  	<nav class="container">
+		  <ul class="top-menu">
+		    <li><a href="index.html">Главная</a></li>
+		    <li class="dropdown-standart"><a href="" class="dropdown">Страницы</a>
+		      <ul class="submenu-standart">
+		        <li><a href="">Элемент списка</a></li>
+		        <li><a href="">Элемент списка</a></li>
+		        <li><a href="">Элемент списка</a></li>
+		        <li><a href="">Элемент списка</a></li>
+		        <li><a href="">Элемент списка</a></li>
+		        <li><a href="">Элемент списка</a></li>
+		      </ul>
+		    </li>
+		    <li><a href="magasin.html" class="dropdown">Магазин</a>
+		      <ul class="submenu">
+		        <li><h3>Колонка 1</h3>
+		          <ul>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		          </ul>
+		        </li>
+		        <li><h3>Колонка 2</h3>
+		          <ul>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		            <li><a href="">Элемент списка</a></li>
+		          </ul>
+		        </li>
+		        <li>
+		          <ul>
+		            <li>
+		              <a href="" class="link-image">
+		              <img src="img/hdt.gif" width="105" height="255">
+		              </a>
+		            </li>
+		            <li><h3 class="image-header">Заголовок</h3></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </li>
+		    <li><a href="">Портфолио</a></li>
+		    <li><a href="">Блог</a></li>
+		    <ul id="reg">
+		    <li><a id="regs" href="singup.html">Регистрация</a></li>
+		    <li><a id="regs" href="">Войти</a></li>
+		    </ul>
+		  </ul>
+		</nav>
+	  		</div>	
+	  	</div>
+  	</div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+	<div class="form-wrap">
+	  <div class="profile"><img src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
+	    <h1>Регистрация</h1>
+	  </div>
+	  <form method="post" action="form.php">
+	    <div>
+	      <label for="name">Имя</label>
+	      <input type="text" name="name" required>
+	    </div>
+	    <div class="radio">
+	      <span>Пол</span>
+	      <label>
+	        <input type="radio" name="sex" value="мужской">мужской
+	        <div class="radio-control male"></div>
+	      </label>
+	      <label>
+	        <input type="radio" name="sex" value="женский">женский
+	        <div class="radio-control female"></div>
+	      </label>
+	    </div>
+	    <div>
+	      <label for="email">E-mail</label>
+	      <input type="email" name="email" required>
+	    </div>
+	    <div>
+	      <label for="country">Страна</label>
+	      <select name="country">
+	        <option>Выберите страну проживания</option>
+	        <option value="Россия">Россия</option> 
+	        <option value="Украина">Украина</option> 
+	        <option value="Беларусь">Беларусь</option> 
+	        <option value="USA">USA</option> 
+	      </select> 
+	      <div class="select-arrow"></div> 
+	    </div> 
+	    <button type="submit">Отправить</button> 
+	  </form> 
+	</div>
+
+
+ <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+	  	<script src="js/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
